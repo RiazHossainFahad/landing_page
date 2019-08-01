@@ -1,0 +1,448 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.6 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+ body {
+   position: relative;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: url("image/Background.png") no-repeat center center;
+    background-size: cover;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  
+  .text-style-2, .text-style-3{
+    font-size:18px;
+  }
+  .text-style-4, .text-style-5{
+    font-size:16px;
+  }
+
+  .navbar{
+    background-image: linear-gradient(to top, #001c37, #000d19);
+  }
+
+  .nav-link{
+    color: #fff;
+  }
+  
+  .score{
+    color: #003864;
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+  header.masthead {
+    position: relative;
+    background: url("image/Banner.png") no-repeat center center;
+    background-size: contain;
+    margin-top: 59px;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  
+  header.masthead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+
+  .pointTableImg{
+    position: absolute;
+    bottom: 0px;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    background: url("image/Text background.png") no-repeat center center;
+  }
+
+  /* .pointTable{
+    padding: 15px 0;
+    background: url("image/Text background.png") no-repeat center center;
+  } */
+  
+  .testimonials {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+/* self */
+
+.card-image-1{
+  border: 1px solid red;
+  position: absolute;
+  top: -43px;
+  left: 85px;
+  max-width: 110px;
+  max-height: 110px;
+}
+.card-image-2{
+  border: 1px solid red;
+  position: absolute;
+  top: -43px;
+  left: 60px;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.card-image-3{
+  border: 1px solid red;
+  position: absolute;
+  top: -43px;
+  left: 55px;
+  max-width: 85px;
+  max-height: 85px;
+}
+  div.card{
+    position: relative;
+    z-index: inherit;
+    background-size: cover;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  .card-text{
+    padding: 18px;
+    color: #fff
+  }
+
+  .card-1{
+    background: url("image/Rank box 1.png") no-repeat center center;
+    height: 300px;
+    min-width: 25%;
+    order: 3;
+  }
+  .card-2{
+    background: url("image/Rank box 2.png") no-repeat center center;
+    height: 280px;
+    min-width: 20%;
+    order: 2
+  }
+  .card-3{
+    background: url("image/Rank box 3.png") no-repeat center center;
+    height: 280px;
+    min-width: 20%;
+    order: 4
+  }
+  .card-4{
+    background: url("image/Rank box 4.png") no-repeat center center;
+    height: 240px;
+    min-width: 16%;
+    order: 1
+  }
+  .card-5{
+    background: url("image/Rank box 5.png") no-repeat center center;
+    height: 240px;
+    min-width: 16%;
+    order: 5
+  }
+  .card-item{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:flex-end;
+    margin-top: 60px
+  }
+
+  .rank-1{
+    position: absolute;
+    top: -90px;
+    left: 110px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .rank-4, .rank-5{
+    position: absolute;
+    top: -78px;
+    left: 88px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .rank-2, .rank-3{
+    position: absolute;
+    top: -80px;
+    left: 88px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  /* .rank{
+    position: absolute;
+    top: -85px;
+    left: 88px;
+    max-width: 100px;
+    max-height: 100px;
+  } */
+
+  .page-footer{
+    height: 30px;
+    background-image: linear-gradient(to top, #001c37, #000d19);
+  }
+
+  @media (min-width: 768px) and (max-width: 1679px) {
+    header.masthead {
+      background-size: cover;
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+  }
+  
+  /* for screen size<1610px */
+  @media screen and (max-width: 1631px) {
+    div.card:not(:first-child){
+      margin-top: 90px
+    }
+    .card-item{
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+
+  .card-1{
+    height: 300px;
+    width: 255px;
+    order: 2
+  }
+  .card-2{
+    height: 280px;
+    width: 255px;
+    order: 1
+  }
+  .card-3{
+    height: 280px;
+    width: 255px;
+    order: 3
+  }
+  .card-4{
+    height: 240px;
+    width: 255px;
+    order: 4
+  }
+  .card-5{
+    height: 240px;
+    width: 255px;
+    order: 5
+  }
+
+  .rank-1{
+    position: absolute;
+    top: -88px;
+    left: 105px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .rank-4, .rank-5{
+    position: absolute;
+    top: -75px;
+    left: 100px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .rank-2, .rank-3{
+    position: absolute;
+    top: -80px;
+    left: 100px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .card-img-top{
+    top: -40px;
+    left: 75px;
+  }
+}
+  /* for screen size<1255px */
+  @media screen and (max-width: 1255px) {
+    .card-item{
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+
+  .card-1{
+    height: 300px;
+    width: 230px;
+    order: 2
+  }
+  .card-2{
+    height: 280px;
+    width: 230px;
+    order: 1
+  }
+  .card-3{
+    height: 280px;
+    width: 230px;
+    order: 3
+  }
+  .card-4{
+    height: 240px;
+    width: 250px;
+    order: 4
+  }
+  .card-5{
+    height: 240px;
+    width: 250px;
+    order: 5
+  }
+
+  .rank{
+    position: absolute;
+    top: -58px;
+    left: 114px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .card-img-top{
+    top: -40px;
+    left: 75px;
+  }
+}
+  /* for screen size<1144 */
+  @media screen and (max-width: 1140px) {
+    .card-item{
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+
+  .card-1{
+    height: 300px;
+    width: 230px;
+    order: 1
+  }
+  .card-2{
+    height: 300px;
+    width: 230px;
+    order: 2
+  }
+  .card-3{
+    height: 280px;
+    width: 230px;
+    order: 3
+  }
+  .card-4{
+    height: 280px;
+    width: 230px;
+    order: 4
+  }
+  .card-5{
+    height: 240px;
+    width: 250px;
+    order: 5
+  }
+
+  .rank{
+    position: absolute;
+    top: -58px;
+    left: 114px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .card-img-top{
+    top: -40px;
+    left: 75px;
+  }
+}
+
+/* for screen size<1009px */
+  @media screen and (max-width: 1009px) {
+    .card-item{
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+  .card-1{
+    height: 300px;
+    min-width: 20%;
+    order: 1
+  }
+  .card-2{
+    height: 300px;
+    min-width: 20%;
+    order: 2
+  }
+  .card-3{
+    height: 280px;
+    min-width: 20%;
+    order: 3
+  }
+  .card-4{
+    height: 280px;
+    min-width: 20%;
+    order: 4
+  }
+  .card-5{
+    height: 240px;
+    min-width: 20%;
+    order: 5
+  }
+
+  .card-img-top{
+    top: -40px;
+    left: 70px;
+  }
+  header.masthead {
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+/* for mobile view */
+  @media (max-width: 798px) {
+    div.card:not(:first-child){
+      margin-top: 90px
+    }
+    .card-item{
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+
+    .card-1{
+      height: 300px;
+      width: 230px;
+      order: 1
+    }
+    .card-2{
+      height: 300px;
+      width: 230px;
+      order: 2
+    }
+    .card-3{
+      height: 280px;
+      width: 230px;
+      order: 3
+    }
+    .card-4{
+      height: 280px;
+      width: 230px;
+      order: 4
+    }
+    .card-5{
+      height: 240px;
+      width: 230px;
+      order: 5
+    }
+
+    .card-img-top{
+      top: -40px;
+      left: 70px;
+    }
+    .rank{
+    position: absolute;
+    top: -58px;
+    left: 115px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .pointTableImg h5{
+    font-size: 18px;
+  }
+}
