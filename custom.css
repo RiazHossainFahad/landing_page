@@ -5,11 +5,19 @@
  */
 
  body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "open sans";
     background: url("image/Background.png") no-repeat center center;
     background-size: cover;
   }
-  
+
+  a:hover{
+    color: gold;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 2rem;
+  }
+
   .text-style-2, .text-style-3{
     font-size:18px;
   }
@@ -34,7 +42,7 @@
     position: relative;
     background: url("image/Banner.png") no-repeat center center;
     background-size: contain;
-    margin-top: 60px;
+    margin-top: 59px;
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
@@ -95,7 +103,7 @@
 }
 
 .card-body{
-  padding: auto;
+  padding: 10px 0;
 }
 
 div.card-1 .card-body{
@@ -404,20 +412,26 @@ div.card-3 .card-body{
     left: 80px;
   }
   .rank-2, .rank-3{
-    left: 80px;
+    left: 70px;
   }
   .rank-4, .rank-5{
-    left: 78px;
+    left: 65px;
   }
-  .card-image-1, .card-image-2{
+  .card-image-1{
     left: 55px;
   }
+  .card-image-2{
+    left: 45px;
+  }
   .card-image-3{
-    left: 53px;
+    left: 42px;
   }
 }
   /* for screen size<1255px */
-  @media screen and (max-width: 915px) {
+  @media screen and (max-width: 932px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 0.5rem;
+    }
   .card-1{
     width: 180px;
     order: 1
