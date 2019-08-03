@@ -5,7 +5,6 @@
  */
 
  body {
-    font-family: "open sans";
     background: url("image/Background.png") no-repeat center center;
     background-size: cover;
   }
@@ -19,10 +18,10 @@
   }
 
   .text-style-2, .text-style-3{
-    font-size:18px;
+    font-size:16px;
   }
   .text-style-4, .text-style-5{
-    font-size:16px;
+    font-size:14px;
   }
 
   .navbar{
@@ -106,17 +105,19 @@
   padding: 10px 0;
 }
 
+.card-title{
+  font-style: italic;
+  font-weight: 700;
+  color: #003864
+}
+
 div.card-1 .card-body{
-  padding: 35px 0 0;
+  padding: 18px 0 0;
   justify-content: space-between;
 }
 
-div.card-2 .card-body{
-  padding: 30px 0 0;
-  justify-content: space-between;
-}
-div.card-3 .card-body{
-  padding: 30px 0 0;
+div.card-2 .card-body, div.card-3 .card-body{
+  padding: 10px 0 0;
   justify-content: space-between;
 }
   div.card{
@@ -132,31 +133,31 @@ div.card-3 .card-body{
 
   .card-1{
     background: url("image/Rank box 1.png") no-repeat center center;
-    height: 240px;
+    height: 200px;
     min-width: 210px;
     order: 3;
   }
   .card-2{
     background: url("image/Rank box 2.png") no-repeat center center;
-    height: 220px;
+    height: 180px;
     min-width: 168px;
     order: 2
   }
   .card-3{
     background: url("image/Rank box 3.png") no-repeat center center;
-    height: 220px;
+    height: 180px;
     min-width: 168px;
     order: 4
   }
   .card-4{
     background: url("image/Rank box 4.png") no-repeat center center;
-    height: 180px;
+    height: 160px;
     min-width: 135px;
     order: 1
   }
   .card-5{
     background: url("image/Rank box 5.png") no-repeat center center;
-    height: 180px;
+    height: 160px;
     min-width: 135px;
     order: 5
   }
@@ -165,7 +166,7 @@ div.card-3 .card-body{
     justify-content: center;
     flex-wrap: nowrap;
     align-items:flex-end;
-    margin-top: 60px
+    margin-top: 60px;
   }
 
   .rank-1{
